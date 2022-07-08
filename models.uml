@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>edu.stonybrook.recipebook.models</OriginalElement>
+  <nodes>
+    <node x="-49.5" y="-15.0">edu.stonybrook.recipebook.models.Ingredient</node>
+    <node x="-82.0" y="301.0">edu.stonybrook.recipebook.models.RecipeIngredient</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.stonybrook.recipebook.models.RecipeIngredient" target="edu.stonybrook.recipebook.models.Ingredient" relationship="GENERALIZATION">
+      <point x="0.0" y="-72.5" />
+      <point x="0.0" y="127.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0686070686070686" showDependencies="false" x="61.5" y="225.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
