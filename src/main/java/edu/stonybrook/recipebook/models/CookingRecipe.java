@@ -20,6 +20,10 @@ public class CookingRecipe {
         this.ingredients = ingredients;
     }
 
+    public List<RecipeIngredient> getIngredients() {
+        return ingredients;
+    }
+
     public void addOrUpdateRecipeIngredient(Ingredient ingredient, float quantity){
       Optional<RecipeIngredient> recipeIngredient =  ingredients.stream().filter(Objects::nonNull)
               .filter(recipesIngredient -> ((Ingredient) recipesIngredient)
