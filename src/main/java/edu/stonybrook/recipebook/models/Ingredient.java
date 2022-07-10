@@ -41,10 +41,9 @@ public class Ingredient {
 
     @Override
     public String toString() {
-        return "Ingredient{" +
-                "name='" + name + '\'' +
-                ", measuringUnit='" + measuringUnit + '\'' +
-                ", caloriesPerUnit=" + caloriesPerUnit +
-                '}';
+        return "Ingredient\n" +
+                "name=" + name + '\n' +
+                "measuringUnit=" + measuringUnit + '\n' +
+                "caloriesPerUnit=" + caloriesPerUnit;
     }
 }
